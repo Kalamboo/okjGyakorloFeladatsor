@@ -5,6 +5,7 @@
  */
 package modell;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +18,10 @@ public class Galeria{
 
     public Galeria() {
         galeria = new ArrayList<>();
+        galeria.add(new KiallitasiTargy("Károly", "Lábak a tengerben") {});
+        galeria.add(new KiallitasiTargy(LocalDate.now(), "Károly", "Lábak a tengerben") {});
+        galeria.add(new KiallitasiTargy(LocalDate.now(), "Károly", "Lábak a tengerben") {});
+        galeria.add(new KiallitasiTargy("Károly", "Lábak a tengerben") {});
     }
     
     public void Keszitorend(){

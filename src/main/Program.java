@@ -5,12 +5,16 @@
  */
 package main;
 
+import modell.Galeria;
+
 /**
  *
  * @author Szabo.Gergo
  */
 public class Program {
     public static void main(String[] args) {
+        Galeria gal = new Galeria();
+        
     }
     
 }
