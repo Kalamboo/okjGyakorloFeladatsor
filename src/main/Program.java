@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package okjgyakorlo_galeria;
+package main;
 
 /**
  *
  * @author Szabo.Gergo
  */
-public abstract class KiallitasiTargy {
+public class Program {
+    public static void main(String[] args) {
+    }
     
 }
